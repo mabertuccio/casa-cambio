@@ -70,9 +70,9 @@ function mostrarMonedaConvertida(importeIngresado, importeConvertido) {
     document.querySelector("#div-cantidad-convertida").classList.remove("oculto");
 
     document.querySelector("#importe").textContent = importeIngresado;
-    document.querySelector("#base").textContent = ` ${$("#opcion-base option:selected").text()}`;
+    document.querySelector("#base").textContent = ` ${$("#opciones-base option:selected").text()}`;
     document.querySelector("#importe-convertido").textContent = importeConvertido;
-    document.querySelector("#base-convertido").textContent = ` ${$("#opcion-convertir option:selected").text()}`;
+    document.querySelector("#base-convertido").textContent = ` ${$("#opciones-convertir option:selected").text()}`;
 }
 
 function limpiarTablaValores() {
